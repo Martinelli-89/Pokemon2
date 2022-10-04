@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./assets/pokeball.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>PokéDom</title>
+  </head>
+    <h1>PokéDom- gotta code 'em all!</h1>
+    <input class="searchByName" placeholder="Search pokemon by name" style="width:250px;"></input>
+    Search by type
+    <select id="type">
+      <option value="any">Any</option>
+      <option value="fire">Fire</option>
+      <option value="grass">Grass</option>
+      <option value="water">Water</option>
+      <option value="poison">Poison</option>
+      <option value="flying">Flying</option>
+      <option value="bug">Bug</option>
+      <option value="normal">Normal</option>
+      <option value="fairy">Fairy</option>
+      <option value="fighting">Fighting</option>
+      <option value="psychic">Psychic</option>
+      <option value="rock">Rock</option>
+      <option value="ground">Ground</option>
+    </select>
+    Pokemon to display
+    <select id="amount">
+      <option value="All">All</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+      <option value="40">40</option>
+    </select>
+    <button id="search">Search</button>
+
+
+
+
+    <main class="card-container"></main>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
